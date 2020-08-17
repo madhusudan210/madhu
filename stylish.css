@@ -1,0 +1,398 @@
+
+body{
+ 
+   font-family: 'Merriweather', serif;
+   text-align: center;
+   margin: 0;
+   height: 100vh;
+   line-height: 1.6;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHDZgYoK3cPiRK899G9OTSrUgFYeadxJPjXg&usqp=CAU);
+
+
+}
+.im{
+    color: rgb(14, 223, 94);
+}
+.m{
+    color: magenta;
+}
+.ma{
+    color: aqua;
+}
+.mad{
+    color: darkblue;
+}
+.madh{
+    color: hotpink;
+}
+.madhu{
+    color: burlywood;
+}
+.madhus{
+    color: saddlebrown;
+}
+.madhusu{
+    color: chartreuse;
+}
+.madhusud{
+    color: darkmagenta;
+}
+.madhusuda{
+    color: fuchsia;
+}
+.madhusudan{
+    color: navy;
+}
+.arrow{
+    color: gold;
+}
+
+
+.about{
+    position: fixed;
+
+    right: 400px;
+    display: inline-block;
+    marker-end: 0;
+}
+.about:hover{
+    color:red;
+}
+.name{
+    margin-top: 0;
+}
+
+.interest{
+  position: absolute;
+    right: 300px;
+    display: inline-block;
+    marker-end: 0;
+  
+}
+.interest:hover{
+    color: red;
+}
+.contact{
+   position: absolute;
+    right: 200px;
+    display: inline-block;
+    marker-end: 0;
+  
+}
+.contact:hover{
+    color: red;
+}
+.project{
+   position: absolute;
+    right: 100px;
+    display: inline-block;
+    marker-end: 0;
+  
+}
+.project:hover{
+    color: red;
+}
+.home{  
+     position: absolute;
+    right: 485px;
+    display: inline-block;
+    marker-end: 0;
+  
+
+}
+.home:hover{
+    color: red;
+}
+
+.top{
+    position: relative;
+    background-color: #ebecf1;
+    scroll-behavior: smooth;
+
+   
+}
+
+.cloudblock{
+    position: absolute;
+}
+.cloud{
+    position: relative;
+    left: 230px;
+    margin-top: 100px;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fb{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+.insta{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+.gmail{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    cursor: pointer;
+   
+}
+
+.ar{
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0,0, 0);
+}
+.table{
+    position: relative;
+    left:600px;
+
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+section{
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+}
+.middle{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRe3e1Ngo_XqUM8TTX8pRPKQskwQRfmJ29JvQ&usqp=CAU);
+    position: relative;
+    top: 0;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.mdimg{
+    float: left;
+    margin-top: 40px;
+}
+.intro{
+    width: 60%;
+    height: 300px;
+  margin: 100px auto 70px auto;
+ 
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 1.5;
+}
+hr{
+            
+             border-style: dotted none none none;
+            border-color: black;
+            border-width: 8px;
+            width: 10%;
+            
+        }
+.hobimg{
+    height: 220px;
+    width: 220px;
+ 
+
+}    
+.hobbies{
+    width: 40%;
+    height: 100%;
+    margin: 100px auto;
+}    
+.para{
+    clear: left;
+    margin-left: 0;
+}
+.chess{
+    height: 100px;
+    width: 100px;
+   margin-left: 100px;
+ 
+}
+.cricket{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+.badminton{
+     height: 100px;
+    width: 100px;
+    margin-left: 130px;
+}
+.games{
+    width: 40%;
+    margin: 100px auto;
+}
+.game{
+    clear: left;
+    display: inline;
+    
+    position: absolute;
+
+}
+.bottom-container{
+    width: 100%;
+  
+    background-color: #f6f4e6;
+  line-height: 1;
+  padding: 10px;
+}
+.interests{
+    margin: 100px auto;
+   
+}
+.in{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    width 100%;
+    height: 300px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: center;
+}
+.ethical1{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    box-sizing: border-box;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_LW_6LGkgTNiAb0qeBdo5VRWNRO8-rCjEaA&usqp=CAU);
+    border-style: groove;
+        overflow: hidden;
+    border-radius: 10px;
+    padding-top: 0;
+    transition: 1s;
+
+}
+
+.ethical1:hover{
+    transform:scale(1.5);
+    box-shadow: 4px;
+
+}
+
+.ethical2{
+   
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    box-sizing: border-box;
+    border-style: groove;
+    overflow: hidden;
+    border-radius: 10px;
+       transition: 1s;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVwTyICfCfFvY1XVim0MTc2zkW3Sk56P9Pbw&usqp=CAU);
+}
+.ethical2:hover{
+    transform:scale(1.5);
+    box-shadow: 4px;
+
+}
+
+.ethical3{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    box-sizing: border-box;
+    border-style: groove;
+        overflow: hidden;
+    border-radius: 10px;
+       transition: 1s;
+       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSs2rZcIwXkU_4D9sOpY8h7NOj1ajfE3oanYw&usqp=CAU);
+}
+.ethical3:hover{
+    transform:scale(1.5);
+    box-shadow: 4px;
+
+}
+
+.ethical4{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    box-sizing: border-box;
+    border-style: groove;
+        overflow: hidden;
+    border-radius: 10px;
+       transition: 1s;
+       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqxhNofpe41FleNroD3atthQqBA5RT3KGUqQ&usqp=CAU);
+
+}
+.ethical4:hover{
+    transform:scale(1.5);
+    box-shadow: 4px;
+
+}
+.mailid{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border-style: groove;
+    box-sizing: border-box;;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-top: 0;
+    transition: 1s;
+    background-color: burlywood;
+}
+.mailid:hover{
+    box-shadow: 5px 5px 5px 5px;
+}
+.address{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border-style: groove;
+    box-sizing: border-box;;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-top: 0;
+    transition: 1s;
+    background-color: burlywood;
+}
+.address:hover{
+    box-shadow: 5px 5px 5px 5px;
+}
+.emailimg{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+.adrimg{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+.projectimg{
+    widows: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+}
