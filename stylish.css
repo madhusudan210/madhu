@@ -1,398 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhusudan singh</title>
+    <link rel="stylesheet" href="stylish.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@600&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg  navbar-light" id="header-nav">
 
-body{
- 
-   font-family: 'Merriweather', serif;
-   text-align: center;
-   margin: 0;
-   height: 100vh;
-   line-height: 1.6;
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHDZgYoK3cPiRK899G9OTSrUgFYeadxJPjXg&usqp=CAU);
-
-
-}
-.im{
-    color: rgb(14, 223, 94);
-}
-.m{
-    color: magenta;
-}
-.ma{
-    color: aqua;
-}
-.mad{
-    color: darkblue;
-}
-.madh{
-    color: hotpink;
-}
-.madhu{
-    color: burlywood;
-}
-.madhus{
-    color: saddlebrown;
-}
-.madhusu{
-    color: chartreuse;
-}
-.madhusud{
-    color: darkmagenta;
-}
-.madhusuda{
-    color: fuchsia;
-}
-.madhusudan{
-    color: navy;
-}
-.arrow{
-    color: gold;
-}
-
-
-.about{
-    position: fixed;
-
-    right: 400px;
-    display: inline-block;
-    marker-end: 0;
-}
-.about:hover{
-    color:red;
-}
-.name{
-    margin-top: 0;
-}
-
-.interest{
-  position: absolute;
-    right: 300px;
-    display: inline-block;
-    marker-end: 0;
-  
-}
-.interest:hover{
-    color: red;
-}
-.contact{
-   position: absolute;
-    right: 200px;
-    display: inline-block;
-    marker-end: 0;
-  
-}
-.contact:hover{
-    color: red;
-}
-.project{
-   position: absolute;
-    right: 100px;
-    display: inline-block;
-    marker-end: 0;
-  
-}
-.project:hover{
-    color: red;
-}
-.home{  
-     position: absolute;
-    right: 485px;
-    display: inline-block;
-    marker-end: 0;
-  
-
-}
-.home:hover{
-    color: red;
-}
-
-.top{
-    position: relative;
-    background-color: #ebecf1;
-    scroll-behavior: smooth;
-
-   
-}
-
-.cloudblock{
-    position: absolute;
-}
-.cloud{
-    position: relative;
-    left: 230px;
-    margin-top: 100px;
-}
-
-h1{
-    font-family: 'Sacramento', cursive;
-    font-size: 562.5%;
-    margin: 50px auto 0 auto;
-    color: #66BFBF;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 200%;
-    color: #66BFBF;
-    font-weight: normal;
-}
-h3{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.fb{
-    height: 30px;
-    width: 30px;
-    margin: 20px;
-    cursor: pointer;
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" id="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
     
-}
-.insta{
-    height: 30px;
-    width: 30px;
-    margin: 20px;
-    cursor: pointer;
-    filter: grayscale(1);
-}
-.gmail{
-    height: 30px;
-    width: 30px;
-    margin: 20px;
-    cursor: pointer;
-   
-}
-
-.ar{
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0, 0,0, 0);
-}
-.table{
-    position: relative;
-    left:600px;
-
-}
-.navbar{
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    width: 100%;
-    height: 60px;
-    background: black;
-}
-section{
-    scroll-behavior: smooth;
-    scroll-snap-align: center;
-}
-.middle{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRe3e1Ngo_XqUM8TTX8pRPKQskwQRfmJ29JvQ&usqp=CAU);
-    position: relative;
-    top: 0;
-    padding: 50px;
-    margin-bottom: 50px;
-}
-.mdimg{
-    float: left;
-    margin-top: 40px;
-}
-.intro{
-    width: 60%;
-    height: 300px;
-  margin: 100px auto 70px auto;
- 
-}
-a{
-    text-decoration: none;
-}
-p{
-    line-height: 1.5;
-}
-hr{
-            
-             border-style: dotted none none none;
-            border-color: black;
-            border-width: 8px;
-            width: 10%;
-            
-        }
-.hobimg{
-    height: 220px;
-    width: 220px;
- 
-
-}    
-.hobbies{
-    width: 40%;
-    height: 100%;
-    margin: 100px auto;
-}    
-.para{
-    clear: left;
-    margin-left: 0;
-}
-.chess{
-    height: 100px;
-    width: 100px;
-   margin-left: 100px;
- 
-}
-.cricket{
-    height: 100px;
-    width: 100px;
-    margin-left: 100px;
-}
-.badminton{
-     height: 100px;
-    width: 100px;
-    margin-left: 130px;
-}
-.games{
-    width: 40%;
-    margin: 100px auto;
-}
-.game{
-    clear: left;
-    display: inline;
+        <div class="middle">
     
-    position: absolute;
+        <h1 class="heading"><span class="im">I'm</span> <span class="arrow"> </span> <span class="m">M</span><span class="ma">a</span><span
+                class="mad">d</span><span class="madh">h</span><span class="madhu">u</span><span class="madhus">s</span><span
+                class="madhusu">u</span><span class="madhusud">d</span><span class="madhusuda">a</span><span
+                class="madhusudan">n</span></h1>
+        <h2 class="student">A Student</h2>
+</div>
+   
+</section>
+</div>
+        <section id="about">
+            <br>
+            <br>
+            <br>
 
-}
-.bottom-container{
-    width: 100%;
+            <div class="intro">
+           <img class="mdimg" src="circle-cropped (1).png" alt="madhusudan image">
+        
+                <h1 id="name">madhusudan singh</h1>
+                <p><em> A student in <strong><a target="_blank" href="https://www.iitr.ac.in/">IIT ROORKEE</a></strong></em>
+                </p>
+                <p><em>in <strong><a target="_blank"
+                                href="https://www.iitr.ac.in/departments/EE/pages/index.html">electrical
+                                engineering</a></strong></em></p>
+                  <p><strong>LIFE MOTTO:-</strong>enjoy your life and keep learning</p>              
+           
+      
+            </div>
+    <hr>
+    <div class="hobbies">
+        <img class="hobimg" src="https://media1.giphy.com/media/sY5OAwAX2TfEc/200w.webp?cid=ecf05e47306nxzpbk15a31x5j57qfzkzym34ida3wvlge5fl&rid=200w.webp" alt="">
+    <h2>My Hobbies</h2>
+       
+           <h4 class="para"> 1.Play video games</h4>
+            <h4 class="para">2.Enjoy lockdown😅😅</h4>
+            <h4 class="para">3.Read BOoks</h4>
+        <h4 class="para"> 4.Morning walk</h4>
+        
+    </div>
+    <hr>
+    <div class="games">
+    <h2>my favorite games </h2>
+        <h3 class="game">1.Chess</h3>
+        <img class="chess" src="https://media2.giphy.com/media/vEEG1t5wUxcHK/200.webp?cid=ecf05e47o57oxqjhppwtbo16naqhuizz9wetdum1izixdoh8&rid=200.webp" alt="">
+        <div >
+            <h3 class="game">2.Cricket</h3>
+            <img class="cricket" src="https://media3.giphy.com/media/QqEoQkYIADtcs/200.webp?cid=ecf05e475dki57aqcnpys454xnkex85a70n3y29q03zth2fj&rid=200.webp" alt="">
+        </div>
+        <div>
+            <h3 class="game">3.Badminton</h3>
+            <img class="badminton" src="https://media1.giphy.com/media/kcevVVYSqRR2xmFevc/200w.webp?cid=ecf05e477xi0ixli3zc1k5dbomtiktnjy6usptyqf3u7dxfr&rid=200w.webp" alt="">
+        </div>
+        
+    </div>
+    <section id="interest">
+        <br>
+        <br>
+        <br>
+        <br>
   
-    background-color: #f6f4e6;
-  line-height: 1;
-  padding: 10px;
-}
-.interests{
-    margin: 100px auto;
-   
-}
-.in{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.box{
-    width 100%;
-    height: 300px;
-    padding-left: 120px;
-    display: flex;
-    justify-content: center;
-}
-.ethical1{
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    box-sizing: border-box;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_LW_6LGkgTNiAb0qeBdo5VRWNRO8-rCjEaA&usqp=CAU);
-    border-style: groove;
-        overflow: hidden;
-    border-radius: 10px;
-    padding-top: 0;
-    transition: 1s;
+   <div class="interests">
+       <h1 class="in">INTERESTS</h1>
+       <div class="box">
+           <div class="ethical1">
 
-}
+           </div>
+           <div class="ethical2">
+            
+            </div>
+            <div class="ethical3">
+                    
+            </div>
+            <div class="ethical4">
+                    
+            </div>
 
-.ethical1:hover{
-    transform:scale(1.5);
-    box-shadow: 4px;
+       </div>
+       
+   </div>
+</section>
+<section id="contact">
+    <br>
+    <br>
+    <br>
+    <br>
 
-}
+    <div class="interests">
+        <h1 class="in">CONTACT</h1>
+        <div class="box">
+            <div class="mailid">
+                <img class="emailimg" src="https://image.flaticon.com/icons/svg/281/281769.svg" alt="">
+                <h2>Email</h2>
+                <p class="rare">madhusudansingh2001@gmail.com</p>
+                <p class="rare">madhusudansingh210733@gmail.com</p>
+    
+            </div>
+            <div class="address">
+                <img class="adrimg" src="https://img.icons8.com/cute-clipart/64/000000/address.png" alt="">
+                <h2>Adress</h2>
+                <p>Malsisar,sujangarh</p>
+                <p>Churu,rajasthan</p>
 
-.ethical2{
-   
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    box-sizing: border-box;
-    border-style: groove;
-    overflow: hidden;
-    border-radius: 10px;
-       transition: 1s;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVwTyICfCfFvY1XVim0MTc2zkW3Sk56P9Pbw&usqp=CAU);
-}
-.ethical2:hover{
-    transform:scale(1.5);
-    box-shadow: 4px;
+        </div>
+    
+    </div>
 
-}
+</section>
+<section id="project">
+    <br>
+    <br>
+    <br>
+    <h1 class="in">PROJECTS</h1>
+    <img class="projectimg" src="https://media0.giphy.com/media/ftfLmz1mRAB4UM2OnY/200w.webp?cid=ecf05e47nc1ext6499p3p8c5xum4bjagnikmmyg1zc1rlsvh&rid=200w.webp" alt="">
+    <br>
+    <br>
+    <br>
 
-.ethical3{
+</section>
+<div class="bottom-container">
+    <h3>You can also contact me on</h3>
+    <a class="footer-link" href="https://www.facebook.com/rathoremadhusudan.singh"><img class="fb"
+            src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512"
+            alt=""></a>
+    <a class="footer-link" href="https://www.instagram.com/msr__191101/" alt=""><img class="insta"
+            src="https://image.flaticon.com/icons/svg/87/87390.svg" alt=""></a>
+    <a href="mailto:madhusudansingh2001@gmail.com"><img class="gmail"
+            src="https://image.flaticon.com/icons/svg/281/281769.svg" alt=""></a>
+    <p>© 2020 Madhusudan Singh Rathore.</p>
+</div>
 
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    box-sizing: border-box;
-    border-style: groove;
-        overflow: hidden;
-    border-radius: 10px;
-       transition: 1s;
-       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSs2rZcIwXkU_4D9sOpY8h7NOj1ajfE3oanYw&usqp=CAU);
-}
-.ethical3:hover{
-    transform:scale(1.5);
-    box-shadow: 4px;
-
-}
-
-.ethical4{
-
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    box-sizing: border-box;
-    border-style: groove;
-        overflow: hidden;
-    border-radius: 10px;
-       transition: 1s;
-       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqxhNofpe41FleNroD3atthQqBA5RT3KGUqQ&usqp=CAU);
-
-}
-.ethical4:hover{
-    transform:scale(1.5);
-    box-shadow: 4px;
-
-}
-.mailid{
-
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    border-style: groove;
-    box-sizing: border-box;;
-    overflow: hidden;
-    border-radius: 10px;
-    padding-top: 0;
-    transition: 1s;
-    background-color: burlywood;
-}
-.mailid:hover{
-    box-shadow: 5px 5px 5px 5px;
-}
-.address{
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    border-style: groove;
-    box-sizing: border-box;;
-    overflow: hidden;
-    border-radius: 10px;
-    padding-top: 0;
-    transition: 1s;
-    background-color: burlywood;
-}
-.address:hover{
-    box-shadow: 5px 5px 5px 5px;
-}
-.emailimg{
-    margin-top: 50px;
-    width: 50px;
-    height: 50px;
-}
-.adrimg{
-    margin-top: 50px;
-    width: 50px;
-    height: 50px;
-}
-.projectimg{
-    widows: 250px;
-    height: 250px;
-    margin-bottom: 50px;
-}
+</body>
+</html>
